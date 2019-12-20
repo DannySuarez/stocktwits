@@ -10,7 +10,8 @@ const useStyles = makeStyles(theme => ({
     width: '100%',
     maxWidth: '100%',
     backgroundColor: theme.palette.background.paper
-  }
+  },
+ 
 }));
 
 function Tweets({ tweets }) {
@@ -23,10 +24,8 @@ function Tweets({ tweets }) {
   return (
     <>
       <List className={classes.root}>
-
         { tweetsList }
       </List>
-
     </>
   );
   
