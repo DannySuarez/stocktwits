@@ -1,9 +1,9 @@
 import React from 'react';
-import Home from './containers/Home';
+import Search from './containers/Search';
 
 export default function App() {
   return (
-    <Home />
+    <Search />
   );
 
   

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
-import { List, ListItem, Divider, ListItemText, Typography } from '@material-ui/core';
+import { ListItem, Divider, ListItemText, Typography } from '@material-ui/core';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -18,7 +18,7 @@ function Tweet({ tweet }) {
   const classes = useStyles();
 
   return (
-    <List className={classes.root}>
+    <>
       <ListItem alignItems="flex-start">
         <ListItemText
           secondary={
@@ -37,8 +37,7 @@ function Tweet({ tweet }) {
         />
       </ListItem>
       <Divider variant="inset" component="li"/>
-
-    </List>
+    </>
   );
 }
 
