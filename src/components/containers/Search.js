@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { getStockTweets } from '../../services/stocktwitsApi';
 import SearchTweet from '../searchtweet/SearchTweet';
-import Tweets from '../tweets/tweets';
+import Tweets from '../tweets/Tweets';
 
 function Home() {
   
